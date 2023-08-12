@@ -1,0 +1,56 @@
+#room-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#header {
+    background-image: radial-gradient(blue 20%, green);
+    font-size: 2.5vw;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: green;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.300), 1px -5px 10px rgba(0, 0, 0, 0.300);
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+#stream-box {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: 100%;
+}
+
+.inner-stream-box {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
